@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama" /></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><input type="password" id="password" name="password" /></td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td>
+              <input type="tanggal" id="tanggal" name="tanggal" size="2" /> / <input type="tanggal" id="tanggal" name="tanggal" size="2" /> /
+              <input type="tanggal" id="tanggal" name="tanggal" size="2" />
+              (hh/bb/tt)
+            </td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+              <input type="radio" id="pria" name="jenis_kelamin" value="pria" />
+              <label for="pria">Laki</label><br>
+              <input type="radio" id="wanita" name="jenis_kelamin" value="wanita" />
+              <label for="wanita">Wanita</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Jurusan</td>
+            <td>:</td>
+            <td>
+              <select id="jurusan" name="jurusan">
+                <option value="IMT">IMT</option>
+                <option value="MAN">MAN</option>
+                <option value="VCD">VCD</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+              <input type="checkbox" id="membaca" name="hobi" value="membaca" />
+              <label for="membaca">Gaming</label>
+              <input type="checkbox" id="travelling" name="hobi" value="travelling" />
+              <label for="travelling">Travelling</label>
+              <input type="checkbox" id="rebahan" name="hobi" value="rebahan" />
+              <label for="rebahan">Rebahan</label><br>
+              <input type="checkbox" id="dengar_musik" name="hobi" value="dengar_musik" />
+              <label for="dengar_musik">Dengar Musik</label>
+              <input type="checkbox" id="adventure" name="hobi" value="adventure" />
+              <label for="adventure">Adventure</label>
+              <input type="checkbox" id="lainnya" name="hobi" value="lainnya" />
+              <label for="lainnya">Lainnya</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea id="alamat" name="alamat"></textarea></td>
+          </tr>
+          <tr>
+            <td>Semester</td>
+            <td>:</td>
+            <td>
+              <select id="semester" name="semester">
+                <option value="1">satu</option>
+                <option value="2">dua</option>
+                <option value="3">tiga</option>
+                <option value="4">empat</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><input type="submit" value="Submit" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
