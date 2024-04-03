@@ -1,0 +1,123 @@
+.main {
+  position: absolute;
+  background-color: #fffd54;
+  height: 600px;
+  width: 610px;
+  padding: 0px;
+  border-radius: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.badan {
+  background-color: #f6c3cb;
+  height: 542.9561767578125px;
+  width: 542px;
+  left: 31px;
+  top: 29px;
+  position: absolute;
+  border-radius: 50%;
+}
+.hidung {
+  background-color: #fffeff;
+  height: 124.78253173828125px;
+  width: 192.00897216796875px;
+  top: 318.91px;
+  left: 205.99px;
+  position: absolute;
+  border-radius: 50%;
+}
+.lubang1 {
+  background-color: #e63df5;
+  height: 57.8260498046875px;
+  width: 57.72421646118164px;
+  top: 352.39px;
+  left: 228.47px;
+  position: absolute;
+  border-radius: 50%;
+}
+.lubang2 {
+  background-color: #e93ef6;
+  height: 57.8260498046875px;
+  width: 57.72421646118164px;
+  top: 352.39px;
+  left: 317.79px;
+  position: absolute;
+  border-radius: 50%;
+}
+.mata1 {
+  background-color: #ffffff;
+  height: 97.39124298095703px;
+  width: 99.0426025390625px;
+  top: 189.26px;
+  left: 364.58px;
+  position: absolute;
+  border-radius: 50%;
+}
+.mata2 {
+  background-color: #ffffff;
+  height: 97.39124298095703px;
+  width: 99.0426025390625px;
+  top: 189.26px;
+  left: 140.37px;
+  position: absolute;
+  border-radius: 50%;
+}
+.bola1 {
+  background-color: #000000;
+  height: 57.8260498046875px;
+  width: 58.33183670043945px;
+  top: 195.95px;
+  left: 170.14px;
+  position: absolute;
+  border-radius: 50%;
+}
+.bola2 {
+  background-color: #000000;
+  height: 57.8260498046875px;
+  width: 58.33183670043945px;
+  top: 195.95px;
+  left: 393.75px;
+  position: absolute;
+  border-radius: 50%;
+}
+.telinga1,
+.telinga2 {
+  content: "";
+  position: absolute;
+  border-radius: 40%;
+  width: 0;
+  height: 70px;
+  border-right: 130px solid transparent;
+  border-left: 130px solid transparent;
+  border-top: 140px solid #f333d3;
+}
+.telinga1 {
+  transform: rotate(-20deg);
+  margin-top: 37px;
+  margin-left: 25px;
+}
+.telinga2 {
+  transform: rotate(20deg);
+  margin-top: 37px;
+  margin-left: 320px;
+}
+.mulut {
+  position: absolute;
+  z-index: 1;
+  top: 425px;
+  left: 250px;
+  height: 60px;
+  width: 90px;
+  margin: 0 auto;
+  border-bottom: 20px solid #222;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+  }
+}
