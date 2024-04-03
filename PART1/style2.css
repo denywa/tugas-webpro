@@ -1,0 +1,66 @@
+html {
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  background-color: red;
+  margin: 10px;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+}
+header {
+  background-color: navy;
+  width: auto;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px;
+}
+nav {
+  width: 100%;
+  text-align: center;
+}
+article {
+  color: black;
+  background-color: lime;
+  width: auto;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+}
+
+.figures {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+figure {
+  height: 400px;
+  margin: 0px 10px;
+}
+figure:first-child {
+  background-color: purple;
+}
+figure:nth-child(2) {
+  background-color: yellow;
+  color: black;
+}
+figure:last-child {
+  background-color: pink;
+  color: black;
+}
+footer {
+  background-color: cyan;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  clear: both;
+  color: black;
+  margin: 10px;
+}

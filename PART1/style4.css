@@ -1,0 +1,111 @@
+html {
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  height: 10%;
+  background-color: orange;
+  margin: 10px;
+  padding-top: 2%;
+}
+
+.container1 {
+  display: flex;
+  margin: 10px;
+  margin-right: 4px;
+  height: 30%;
+}
+
+.article-container1 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.headernav {
+  width: 98%;
+  margin: 10px;
+  height: 40px;
+  background-color: yellow;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  margin-right: 4px;
+}
+
+.article-container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  background-color: rgb(153, 255, 252);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+section {
+  background-color: rgb(171, 205, 50);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.section1 {
+  height: 150px;
+}
+.section1,
+.section2 {
+  margin-right: 30px;
+}
+
+.header {
+  background-color: azure;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: lightsalmon;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  background-color: yellow;
+  margin: 10px;
+}
+
+aside {
+  background-color: green;
+  width: 15%;
+  margin: 0%;
+}
+
+figcaption {
+  background-color: gray;
+}
+
+footer {
+  background-color: orange;
+  height: 9%;
+}
+
+.footernav {
+  width: 98%;
+  margin: 10px;
+  background-color: yellow;
+  height: 40px;
+}
+
+.aside {
+  height: 130px;
+  float: right;
+  width: 230px;
+}

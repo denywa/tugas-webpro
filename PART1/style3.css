@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  background-color: rgb(252, 252, 194);
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  margin-right: 4px;
+}
+
+.article-container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: azure;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: lightsalmon;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  background-color: lightcoral;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(192, 255, 124);
+  width: 10%;
+  margin: 0%;
+  text-align: center;
+}
+
+figcaption {
+  display: flex;
+  background-color: gray;
+  margin-top: 80%;
+  padding: 5px;
+  justify-content: center;
+}
+article {
+  background-color: lightblue;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: center;
+}
+
+.footerpage {
+  background-color: lightcoral;
+  height: 7%;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text */
+}
